@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import CustomForm from './customforms';
+import CustomTable from './customtable';
+import CustomImage from './customimg';
+import CustomList from './customlist';
+import CustomBtn from './custombtn';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  
+     <CustomForm/>
+     <CustomTable/>
+     <CustomImage/>
+     <CustomList/>
+     <CustomBtn/>
     </div>
   );
 }
