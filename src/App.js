@@ -1,19 +1,13 @@
 
 import './App.css';
-import CustomForm from './customforms';
-import CustomTable from './customtable';
-import CustomImage from './customimg';
-import CustomList from './customlist';
-import CustomBtn from './custombtn';
+import CustomListShow from './mar29tasks/listshow2';
 function App() {
   return (
     <div className="App">
   
-     <CustomForm/>
-     <CustomTable/>
-     <CustomImage/>
-     <CustomList/>
-     <CustomBtn/>
+
+     <CustomListShow/>
+
     </div>
   );
 }
