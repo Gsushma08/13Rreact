@@ -6,6 +6,7 @@ import CarouselExample from './april1tasks/reactbootstrap/carousel';
 import NavBarExample from './april1tasks/reactbootstrap/navbar';
 import ModalExample from './april1tasks/reactbootstrap/modals';
 import ButtonExample from './april1tasks/reactbootstrap/buttons';
+import FruitList from './april2tasks/fruit';
 
 
 
@@ -20,10 +21,7 @@ function App() {
  
     <>
 
-    <NavBarExample/>
-    <FirstPage/>
-    <ModalExample/>
-    <ButtonExample/>
+    <FruitList/>
 
 
  
