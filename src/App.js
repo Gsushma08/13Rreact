@@ -7,6 +7,7 @@ import NavBarExample from './april1tasks/reactbootstrap/navbar';
 import ModalExample from './april1tasks/reactbootstrap/modals';
 import ButtonExample from './april1tasks/reactbootstrap/buttons';
 import FruitList from './april2tasks/fruit';
+import ProductListing from './april4tasks/productListing';
 
 
 
@@ -20,8 +21,9 @@ function App() {
 
  
     <>
+    <ProductListing></ProductListing>
 
-    <FruitList/>
+ 
 
 
  
