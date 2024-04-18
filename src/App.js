@@ -7,7 +7,8 @@ import NavBarExample from './april1tasks/reactbootstrap/navbar';
 import ModalExample from './april1tasks/reactbootstrap/modals';
 import ButtonExample from './april1tasks/reactbootstrap/buttons';
 import FruitList from './april2tasks/fruit';
-import ProductListing from './april4tasks/productListing';
+import ProductFilter from './april6tasks/productfilter';
+
 
 
 
@@ -21,7 +22,7 @@ function App() {
 
  
     <>
-    <ProductListing></ProductListing>
+    <ProductFilter/>
 
  
 
